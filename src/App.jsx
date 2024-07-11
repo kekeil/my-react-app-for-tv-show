@@ -74,7 +74,7 @@ export function App() {
             <div>
               <Logo
                 image={logo}
-                title="Made by Salathia (づ｡◕‿‿◕｡)づ💻"
+                title="Made by Salathia"
                 subtitle="Find a show you may like"
               />
             </div>
