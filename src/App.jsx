@@ -74,7 +74,7 @@ export function App() {
             <div>
               <Logo
                 image={logo}
-                title="Watowatch"
+                title="Made by Salathia (づ｡◕‿‿◕｡)づ💻"
                 subtitle="Find a show you may like"
               />
             </div>
@@ -89,7 +89,11 @@ export function App() {
       </div>
       <div className={s.recommentations}>
         {recommendationList && recommendationList.length > 0 && (
-          <TVShowList onClickItem={setCurrentTVShow} tvShowList={recommendationList} />)}
+          <TVShowList
+            onClickItem={setCurrentTVShow}
+            tvShowList={recommendationList}
+          />
+        )}
       </div>
     </div>
   );
